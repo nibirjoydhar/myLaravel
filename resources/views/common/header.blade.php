@@ -1,4 +1,11 @@
-<div style="background-color:black;width:100%;color:white;">
-    <!-- Waste no more time arguing what a good man should be, be one. - Marcus Aurelius -->
-    This is header
-</div>
+
+    <header class="bg-light py-3 shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="{{ url('/') }}" class="navbar-brand fw-bold text-primary">MyLaravelApp</a>
+            <nav>
+                <a href="{{ url('/') }}" class="me-3 text-dark">Home</a>
+                <a href="{{ url('/about') }}" class="me-3 text-dark">About</a>
+                <a href="{{ url('/contact') }}" class="text-dark">Contact</a>
+            </nav>
+        </div>
+    </header>
