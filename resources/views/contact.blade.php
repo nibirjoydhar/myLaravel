@@ -18,7 +18,7 @@
                 <p>+88 015-215 46883</p>
 
                 <h5><i class="fas fa-envelope me-2"></i>Email</h5>
-                <p>info@jobboard.com</p>
+                <p>info@mylaravel.com</p>
             </div>
 
             <!-- Contact Form -->
