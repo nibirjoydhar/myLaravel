@@ -25,3 +25,10 @@ Route::get('/', function () {
 Route::get('/privacy', function () {
     return view('privacy_policy');
 });
+
+Route::get('/service/{id?}/{name}', function($id=0,$name){
+    return view('service',['id' => $id,'name'=>$name]);
+})->where([
+    'id'=>'[0-9]+',
+    'name'=>'[a-z]+'
+]);

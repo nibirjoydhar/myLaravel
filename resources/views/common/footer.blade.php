@@ -11,7 +11,7 @@
                 <ul class="list-unstyled">
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ url('/about') }}">About Us</a></li>
-                    <li><a href="{{ url('/jobs') }}">Job Listings</a></li>
+                    <li><a href="{{ url('/service/1/nibir') }}">services</a></li>
                     <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                     <li><a href="{{ url('/privacy') }}">Privacy Policy</a></li>
                 </ul>
