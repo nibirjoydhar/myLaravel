@@ -5,7 +5,7 @@
 @section('content')
     @php use Illuminate\Support\Str; @endphp
 
-    <div class="container py-4">
+    <div class="container py-4" style="padding-top: 60px !important;">
         <div class="row">
             {{-- Example services --}}
             @php

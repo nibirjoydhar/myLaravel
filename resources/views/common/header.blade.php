@@ -1,5 +1,5 @@
 
-    <header class="bg-light py-3 shadow-sm">
+    <header class="bg-light py-3 shadow-sm fixed-top">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="{{ url('/') }}" class="navbar-brand fw-bold text-primary">MyLaravelApp</a>
             <nav>
