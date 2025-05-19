@@ -43,3 +43,4 @@ Route::view('/template','layout.template');
 Route::get('/site', [SiteController::class,'home']);
 Route::get('/ind', [SiteController::class,'index']);
 Route::post('/form-submit', [SiteController::class, 'form_submit']);
+Route::get('/messages', [SiteController::class, 'showMessages']);
